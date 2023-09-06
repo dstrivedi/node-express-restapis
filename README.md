@@ -21,6 +21,14 @@ This is a Node.js application that provides RESTful APIs using the Express.js fr
 
 - `models/`: Defines data models.
 - `routes/`: Defines API routes.
+  
+```bash
+GET      /api/getAll
+POST     /api/post
+GET      /api/getOne/:id
+PUT      /api/update/:id
+DELETE   /api/delete/:id
+```
 
 ## Getting Started
 
